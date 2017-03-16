@@ -3,12 +3,7 @@
   font-family: 'Raleway', 'sans-serif';
 }
 
-.jens-recipes img{
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.jumbotron {
+.jens-page .jumbotron {
   background-image: url('../images/blue_ridge_mountains.jpg');
   background-repeat: no-repeat;
   background-size: cover;

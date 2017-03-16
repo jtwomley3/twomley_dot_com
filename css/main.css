@@ -1,3 +1,6 @@
+
+/* This is all the override CSS for Jen's Page */
+
 .jens-page {
   background-color: white;
   font-family: 'Raleway', 'sans-serif';
@@ -11,6 +14,43 @@
   background-attachment: fixed;
   padding: 10%;
   margin-top: -40px;
-  position: center
+  position: center;
 
+}
+
+.jens-recipes img{
+  width: 10%;
+  max-width: 120px;
+  min-width: 75px;
+}
+
+.jens-page footer nav {
+  background-color: #AC54AA;
+  width: 100%;
+  text-align: center;
+
+}
+
+.jens-page footer a {
+  color: #262626;
+}
+
+/* This is all the override CSS for Jared's Page*/
+.jareds-page .navbar .dropdown:hover {
+  background-color: #eeb211;
+}
+
+
+.jareds-page footer .container{
+}
+
+.jareds-page footer nav {
+  background-color: #eeb211;
+  text-align: center;
+  align-content: center;
+
+}
+
+.jareds-page footer a {
+  color: #262626;
 }

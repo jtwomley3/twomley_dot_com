@@ -12,9 +12,9 @@
   background-size: cover;
   width: 100%;
   background-attachment: fixed;
-  padding: 10%;
+  padding: 13%;
   margin-top: -40px;
-  position: center;
+  background-position: center;
 
 }
 
@@ -38,6 +38,17 @@
 /* This is all the override CSS for Jared's Page*/
 .jareds-page .navbar .dropdown:hover {
   background-color: #eeb211;
+}
+
+.jareds-page .jumbotron {
+  background-image: url('../images/jared-jumbotron.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  padding: 12%;
+  margin-top: -40px;
+  background-position: -300px -100px;
 }
 
 

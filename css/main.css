@@ -65,3 +65,26 @@
 .jareds-page footer a {
   color: #262626;
 }
+
+.delete-icon {
+  height: 18px;
+  float: right;
+  padding: 3px;
+}
+
+.delete-icon:hover {
+  background-color: #eeb211
+}
+
+.jareds-page .list {
+  width: 250px;
+  margin-left: 15px
+}
+
+.jareds-page .listInputForm {
+  margin-bottom: 15px
+}
+
+.jareds-page li {
+  font-family: monospace;
+}

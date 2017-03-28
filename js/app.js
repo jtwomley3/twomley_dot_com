@@ -11,14 +11,22 @@ console.log('js Loaded');
       "<img class='delete-icon' src='./images/Trash-can.png' alt='trashcan'></li>")
 
       $('#list_item').val(null)
-     }
 
+     }
+     $('.delete-icon').click(function(e){
+        var el =
+          removeListItem(e.target)
+
+        return
+     });
      return //console.log('button was clicked. Value = ' + val);
    }
 
-  //  function removeListItem(el){
-  //    return (console.log(el);)
-  //  }
+   function removeListItem(){
+
+
+     return (console.log(target.id))
+   }
 
 
 
@@ -30,6 +38,5 @@ console.log('js Loaded');
         e.which === 13 ? addListItem() : ''
       });
 
-   $('.delete-icon').click(console.log("clicked"));
 
  });
